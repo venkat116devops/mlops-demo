@@ -8,7 +8,7 @@ on:
 jobs:
   matrix-pip-jobname:
     name: Train and save the model
-    runs-on: ububntu-latest
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         python: [3.11, 3.12]
